@@ -6,8 +6,7 @@ def key_for_min_value(name_hash)
     if name_hash.none? do |i_key, i_value|
       value > i_value
       end 
-      min_value_key = key 
+      return key 
     end 
   end 
-  min_value_key
 end
